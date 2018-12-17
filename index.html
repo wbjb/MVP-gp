@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>search box</title>
+    <style type="text/css">
+      .main{
+        width: 100%;
+      }
+      .search{
+        margin: 0;
+        padding: 5px 10px;
+        font-family: arial, helvetica, sans-serif;
+        font-size: 14px;
+        border: 1px solid #00763;
+        border-right: 0;
+        border-top-left-radius: 5px 5px;
+        border-bottom-left-radius: 5px 5px;
+        font-style: italic;
+        height: 20px;
+      }
+      .button{
+        padding: 5px 5px;
+        font-family: arial, helvetica, sans-serif;
+        font-size: 14px;
+        text-shadow: 0 0 1px #000;
+        cursor: pointer;
+        text-align: center;
+        color: #fff;
+        border-right: 0;
+        background: linear-gradient(#00adee,#0078a5);
+        border-top-right-radius: 5px 5px;
+        border-bottom-right-radius: 5px 5px;
+        position: absolute;
+        height: 32px;
+        border: 1px solid #00763;
+
+
+      }
+      .button:hover{
+        background: linear-gradient(#0095cc,#00678e);
+      }
+      .search:focus,.button:focus{
+        outline:none;
+      }
+      #search-box{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: -75px
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <form class="" action="http://www.google.com" method="get" id="search-box">
+        <input type="text" class="search" name="q" value="" size="20" maxlength="120" placeholder="search...">
+        <input type="submit" class="button" value="search">
+      </form>
+    </div>
+  </body>
+</html>
