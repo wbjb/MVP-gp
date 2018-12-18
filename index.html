@@ -1,61 +1,58 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>search box</title>
-    <style type="text/css">
-      .main{
-        width: 100%;
-      }
-      .search{
-        margin: 0;
-        padding: 5px 10px;
-        font-family: arial, helvetica, sans-serif;
-        font-size: 14px;
-        border: 1px solid #00763;
-        border-right: 0;
-        border-top-left-radius: 5px 5px;
-        border-bottom-left-radius: 5px 5px;
-        font-style: italic;
-        height: 20px;
-      }
-      .button{
-        padding: 5px 5px;
-        font-family: arial, helvetica, sans-serif;
-        font-size: 14px;
-        text-shadow: 0 0 1px #000;
-        cursor: pointer;
-        text-align: center;
-        color: #fff;
-        border-right: 0;
-        background: linear-gradient(#00adee,#0078a5);
-        border-top-right-radius: 5px 5px;
-        border-bottom-right-radius: 5px 5px;
-        position: absolute;
-        height: 32px;
-        border: 1px solid #00763;
-
-
-      }
-      .button:hover{
-        background: linear-gradient(#0095cc,#00678e);
-      }
-      .search:focus,.button:focus{
-        outline:none;
-      }
-      #search-box{
-        text-align: center;
-        margin-top: 50px;
-        margin-left: -75px
-      }
-    </style>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>MVP</title>
   </head>
+
+
+
   <body>
-    <div class="main">
-      <form class="" action="http://www.google.com" method="get" id="search-box">
-        <input type="text" class="search" name="q" value="" size="20" maxlength="120" placeholder="search...">
-        <input type="submit" class="button" value="search">
-      </form>
+    <div class="row">
+      <div class="box">
+      <div class="container">
+      <div class="col-md-13">
+      <div id="navigation">
+        <ul>
+          <li><a href="www.google.com">Home</a></li>
+          <li><a href="www.google.com">Meetups</a></li>
+          <li><a href="www.google.com">Friends</a></li>
+          <li><a href="www.google.com">Calendar</a></li>
+          <li><a href="www.google.com">Settings</a></li>
+          <li><a href="www.google.com">Help</a></li>
+          <li><a href="www.google.com">About</a></li>
+        </ul>
+      <div id="searchposition">
+        <div class="main">
+          <form class="" action="http://www.google.com" method="get" id="search-box">
+            <input type="text" class="search" name="q" value="" size="20" maxlength="120" placeholder="search...">
+            <input type="submit" class="button" value="search">
+          </form>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
     </div>
+    
+    <div class="container">
+      <em><h1><img class="introduction" src= "images/wbjb.jpg" height="400" width="400">Hello, User#001!</h1></em>
+    </div>
+    <div id="online">
+      <p>Online:</p>
+      <div id="output">
+      </div>
+      
+    </div>
+
+
+
+
+
   </body>
 </html>
