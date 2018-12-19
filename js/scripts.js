@@ -12,7 +12,7 @@ function Promoter(promoterName, eventName, eventLocation) {
 // UI logic
 $(document).ready(function() {
   // Promoter event submit button
-  $("#eventSubmitForm").submit(function(event) {
+  $("#eventSubmitForm").click(function(event) {
     event.preventDefault();
     // debugger;
     var promoter1Name = $("#promoter1Name").val();
