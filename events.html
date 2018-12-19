@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Events</title>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="events.html">Events</a>
+        <div class="topnavright">
+          <input type="text" placeholder="Search..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <h1>Dundaiing</h1>
+        </div>
+        <div class="col-md-4"></div>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <form id="eventSubmitForm" style="border:1px solid #ccc">
+          <div class="container">
+            <h3>Post your event</h3>
+
+            <hr>
+
+            <label for="title"><b>Event Name</b></label>
+            <input type="text" id="event1Name" placeholder="Enter Event Name" name="eventName">
+
+            <label for="location"><b>Event Location</b></label>
+            <input type="text" id="event1Location" placeholder="Enter Event Location" name="eventLocation">
+
+            <label for="user"><b>Promoter's Name</b></label>
+            <input type="text" id="promoter1Name" placeholder="Enter Promoter's Name" name="promotersName">
+
+
+            <div class="clearfix">
+              <button type="submit" class="signupbtn">Post</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-8 timelineContainer timelineBackground">
+        <div class="timelineBorder timelineContainer">
+          <div class="eventTimeline">
+            <div id='promoterDisplay'></div>
+            <img src="images/giphy.gif" width="100%">
+            <hr>
+          </div>
+          <p>Dj Creme is hosting Hakuna matata at Nakuru. Come one, come all!</P>
+          <img src="images/dunda.jpg" width="100%">
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>About The App</h3>
+          <p>Dundaiing is an app for event promoters that lets them advertise events to revellers accross the globe. Pictures and videos that promote the event can be posted on the timeline and these can be viewed by all users.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Subscribe to our mailing list</h4>
+
+          <form action="">
+
+            <input type="text" id="mlist" name="mailing-list" placeholder="Enter your email">
+            <button type="submit">Submit</button>
+          </form>
+
+        </div>
+        <div class="col-md-4">
+          <a href="https://www.instagram.com"><img src="images/instagram.png" alt=""></a>
+          <a href="https://www.facebook.com"><img src="images/facebook.png" alt=""></a>
+            <a href="https://www.twitter.com"><img src="images/twitter.png" alt=""></a>
+              <a href="https://www.linkedin.com"><img src="images/linkedin.png" alt=""></a>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
