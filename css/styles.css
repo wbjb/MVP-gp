@@ -1,3 +1,45 @@
+
+body {
+	background-color: #c7c5c4;
+}
+
+#messages {
+
+}
+
+li a{
+	text-decoration: none;
+	color: yellow-green;
+	line-height: 50px
+	padding-right: 2px;
+	display: block;
+}
+ul li ul li {
+	display:none;
+}
+
+.hidecomments {
+		display:none;
+}
+.hidecomments2 {
+		display:none;
+}
+
+.slidedown {
+	font-size: 35px
+	
+}
+.slidedown2 {
+	font-size: 35px
+	
+}
+
+h1 {
+	padding-top: 140px;
+	position:relative;
+	right: 400px;
+	margin:20px;
+}
 #navigation{
 	font-size: 20px;
 }
@@ -19,7 +61,13 @@
 	}
 .line {
 	border-left: 1397px solid #133D9A;
-    height: 3px;
+    height: 2px;
+}
+
+.subline {
+	border-left: 1397px solid grey;
+    height: 1px;
+
 }
 
 .feedbox {
@@ -28,24 +76,6 @@
 	 float: right;
 	 background-color: white;
 	 width: 1400px;
-}
-body {
-	background-color: #c7c5c4;
-}
-
-
-li a{
-	text-decoration: none;
-	color: yellow-green;
-	line-height: 50px
-	padding-right: 10px;
-	display: block;
-}
-h1 {
-	padding-top: 140px;
-	position:relative;
-	right: 400px;
-	margin:20px;
 }
 
 #online{
@@ -66,6 +96,22 @@ h1 {
 	position: relative;
 	left:400px;
 }
+#messageicon {
+	position: relative;
+	left: 1550px;
+}
+#notificationicon {
+	position: relative;
+	left: 1200px;
+}
+
+#settings {
+	position: relative;
+	left: 1120px;
+}
+
+
+
 
 
 
