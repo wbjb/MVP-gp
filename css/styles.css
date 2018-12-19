@@ -14,10 +14,24 @@
 	 float: left;
 	 list-style-type: none;
 	 border: 2px solid silver;
-	 padding: 4px;
 	 background-color:#54013e;
 	 padding-right:792px;
 	}
+.line {
+	border-left: 1397px solid #133D9A;
+    height: 3px;
+}
+
+.feedbox {
+	 border: 2px solid silver;
+	 right:400px;
+	 float: right;
+	 background-color: white;
+	 width: 1400px;
+}
+body {
+	background-color: #c7c5c4;
+}
 
 
 li a{
@@ -33,16 +47,25 @@ h1 {
 	right: 400px;
 	margin:20px;
 }
+
 #online{
 	font-size: 40px;
 	padding-top: 80px;
 	margin:20px;
 }
 
-p{
+
+	
+#online {
+
 	float: left;
 }
-
+#feed {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	position: relative;
+	left:400px;
+}
 
 
 
