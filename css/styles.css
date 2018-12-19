@@ -1,47 +1,67 @@
 #header {
-    min-height: 400px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 80px;
-    background-image: url('../images/party.jpg');
-    background-color: black;
-    color: #ffffff;
-  }
-  #header h1{
-    margin-top: 90px;
-    font-size: 96px;
-    font-family: 'Satisfy', cursive;
-  }
-  #footer {
-    min-height: 300px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto;
-    background-color: black;
-    color: #ffffff;
-
+  min-height: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  background-image: url('../images/party.jpg');
+  background-color: black;
+  color: #ffffff;
 }
+
+#header h1 {
+  margin-top: 90px;
+  font-size: 96px;
+  font-family: 'Satisfy', cursive;
+}
+
+#footer {
+  min-height: 300px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+  color: #ffffff;
+}
+
 #promoterDisplay {
   text-align: center;
 }
 
+#features {
+  background-image: url('../images/header-image.jpg');
+  min-height: 500px;
+  padding-top: 80px;
+  color: #ffffff;
+
+}
+
+.centerText {
+  text-align: center;
+}
+.divpadding {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: #f2f2f2;
 }
-* {box-sizing: border-box}
+
+* {
+  box-sizing: border-box
+}
 
 /* Full-width input fields */
-  input[type=text], input[type=password] {
+input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: #ffffff;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -67,9 +87,8 @@ button {
 }
 
 button:hover {
-  opacity:1;
+  opacity: 1;
 }
-
 
 /* Add padding to container elements */
 .container {
@@ -89,6 +108,7 @@ button:hover {
     width: 100%;
   }
 }
+
 .timelineContainer {
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
@@ -100,21 +120,25 @@ button:hover {
   text-align: center;
   margin-bottom: 14px;
 }
+
 .timelineBackground {
   background-color: #f2f2f2;
 }
+
 .eventTimeline {
   display: none;
   padding-top: 24px;
   padding-bottom: 14px;
 }
-.timelineBorder{
+
+.timelineBorder {
   width: 80%;
   margin: 0 auto;
   min-height: 500px;
   background-color: #ffffff;
   margin-top: 14px;
 }
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #000000;
